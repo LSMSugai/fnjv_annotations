@@ -2,9 +2,10 @@
 
 Keep track of manual annotations performed on the FNJV recordings. Annotations are performed using Audacity and the following standards:
 
-- Samples are heard and visually analyzed with a spectrogram
+- Samples (vocalizations) are heard and visually analyzed with a spectrogram
 - Distorted signals (clipped or distorted by the microphone) are not annotated.
 - Only samples that can be clearly identified are marked. Samples should be heard and observed in the spectrogram clearly.
+- Samples are marked as the begin and end of vocalizations units.
 - Consecutive samples can be mixed down if the silence between sounds is shorter than 5s.
 - Annotate the presence of background species if they are clear (high SNR)
 
@@ -21,4 +22,3 @@ Each sample is also annotated according to the following cases:
 
 
 <species_code>_<case>
-
